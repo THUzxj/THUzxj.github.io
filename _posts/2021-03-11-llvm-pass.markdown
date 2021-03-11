@@ -6,13 +6,29 @@ categories: jekyll update
 ---
 
 ## 整体介绍
+是对代码进行“优化”的工具。
 
 - 在哪个阶段执行的？
 
-## 函数
+## 编写
+
+### 匿名namespace
+
+### 类与函数
+- 几种元素
+    - `Module`
+    - `Function`
+    - `Loop`
+    - `Region`
 - 继承类`FunctionPass`，`ModulePass`
 - 函数`runOnFunction`，`runOnModule`
 
+### 注册
+
+### 运行
+`clang`与`opt`
+
+## 示例
 一个HelloWorld示例，来自[官网](https://llvm.org/docs/WritingAnLLVMPass.html)
 ```cpp
 #include "llvm/Pass.h"
@@ -48,3 +64,7 @@ static RegisterStandardPasses Y(
        legacy::PassManagerBase &PM) { PM.add(new Hello()); });
 
 ```
+
+## 参考资料
+
+
