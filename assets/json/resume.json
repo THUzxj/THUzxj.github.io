@@ -117,10 +117,7 @@
     {
       "name": "Deterministic Builds by eBPF",
       "summary": "Achieve deterministic builds by intercepting syscalls by eBPF for safer binary distribution, a project in Inclavare Containers community.",
-      "highlights": [
-        "Based on libbpf, provide command line tools and docker environments.",
-        "Passed the test of compiling the kernel."
-      ],
+      "highlights": ["Based on libbpf, provide command line tools and docker environments.", "Passed the test of compiling the kernel."],
       "startDate": "2022-07-01",
       "endDate": "2022-09-01",
       "url": "https://github.com/THUzxj/deterministic-builds"
