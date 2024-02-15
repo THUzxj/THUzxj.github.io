@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Taiyuan, Shanxi, China. xingjian.zhang@qq.com
 
 profile:
   align: right
