@@ -118,25 +118,19 @@
       "name": "Web Service Development",
       "level": "Familiar",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Vue", "flask", "Django", "Django REST framework", "Springboot", "SQL", "Docker"
-      ]
+      "keywords": ["Vue", "flask", "Django", "Django REST framework", "Springboot", "SQL", "Docker"]
     },
     {
       "name": "Cloud Computing Operation",
       "level": "Familiar",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "OpenStack", "Kubernetes", "FaaS Platforms", "Docker", "Vagrant", "Ansible", "Grafana", "eBPF"
-      ]
+      "keywords": ["OpenStack", "Kubernetes", "FaaS Platforms", "Docker", "Vagrant", "Ansible", "Grafana", "eBPF"]
     },
     {
       "name": "Machine Learning",
       "level": "Familiar",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Basic of Deep Learning", "Basic of NLP", "Pytorch"
-      ]
+      "keywords": ["Basic of Deep Learning", "Basic of NLP", "Pytorch"]
     }
   ],
   "languages": [
