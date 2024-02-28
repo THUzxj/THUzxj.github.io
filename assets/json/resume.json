@@ -25,7 +25,7 @@
       "publisher": "ISSRE 2023",
       "releaseDate": "2023",
       "url": "https://ieeexplore.ieee.org/abstract/document/10301214",
-      "summary": "1. We investigated the issue of KPI selection in multivariate Time Series Anomaly Detection (TSAD) and point out the necessity of it for practical anomaly detection.\n2. We investigated the performace loss issue of multivariate TSAD models based on Autoencoders when they are applied to real-world cloud systems, in particular when there are a large number of KPIs.\n3. We propose fKPISelect, a fault-injection-based automated KPI selection mechanism to solve the gap between existing models and practical anomaly deteciton tasks."
+      "summary": "1. We investigated the issue of KPI selection in multivariate Time Series Anomaly Detection (TSAD) and point out the necessity of it for practical anomaly detection.\n2. We investigated the performance loss issue of multivariate TSAD models based on Autoencoders when they are applied to real-world cloud systems, in particular when there are a large number of KPIs.\n3. We propose fKPISelect, a fault-injection-based automated KPI selection mechanism to solve the gap between existing models and practical anomaly detection tasks."
     },
     {
       "name": "Modeling Composition of Cloud Services with Complex Dependencies for Availability Assessment",
