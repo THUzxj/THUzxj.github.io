@@ -104,7 +104,7 @@
   "projects": [
     {
       "name": "Automatic Creation and Operation of Experimental Cloud Systems",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+      "summary": "An automatic experimental system for collecting data and testing new designs",
       "highlights": [
         "Using Vagrant and Puppet for creating server clusters",
         "Running microservices and workloads with kubernetes and locust",
