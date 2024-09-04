@@ -1,5 +1,36 @@
 ---
+	author = { Zhang, Xingjian (Students' second author) },
 ---
+
+@inproceedings{deng_minder_2025,
+	title = {Minder: Faulty Machine Detection for Large-scale Distributed Model Training (With ByteDance, students' second author, to appear)},
+	abstract = { Large-scale distributed model training requires simultaneous training on up to thousands of machines. Faulty machine detection is critical when an unexpected fault occurs in a machine. From our experience, a training task can encounter two faults per day on average, possibly leading to a halt for hours. To address the drawbacks of the time-consuming and labor-intensive manual scrutiny, we propose Minder, an automatic faulty machine detector for distributed training tasks. The key idea of Minder is to automatically and efficiently detect faulty distinctive monitoring metric patterns, which could last for a period before the entire training task comes to a halt. Minder has been deployed in a production environment for over nine months, monitoring daily distributed training tasks where each involves up to thousands of machines. In our real-world fault detection scenarios, Minder can accurately and efficiently react to faults within 3.6 seconds on average, with a precision of 0.904 and F1-score of 0.893. },
+	author = { Deng, Yangtao and Shi, Xiang and Jiang, Zhuo and Zhang, Xingjian },
+	booktitle = {NSDI 2025},
+	month = apr,
+	year = {2025},
+	selected = {true}
+}
+
+@inproceedings{zhang_fkpiselect_2023,
+	title = {{fKPISelect}: {Fault}-{Injection} {Based} {Automated} {KPI} {Selection} for {Practical} {Multivariate} {Anomaly} {Detection}},
+	shorttitle = {{fKPISelect}},
+	url = {https://ieeexplore.ieee.org/abstract/document/10301214},
+	doi = {10.1109/ISSRE59848.2023.00084},
+	abstract = {IT services are now popularly hosted in cloud systems. In order to enhance the availability of cloud services, an emerging approach for detecting failures of cloud components is to monitor Key Performance Indicators (KPIs) of the components and apply Neural Network based AI technologies to detect KPI anomalies. Multivariate Time Series Anomaly Detection (TSAD) models have been designed for this purpose. However, when applying such models directly to real-world cloud systems the anomaly detection performance is not as good. This is because the number of KPIs in real cloud systems is typically much more than the number of KPIs in the datasets used for model evaluation, and the larger number of KPIs bring about a performance loss of the models’ anomaly detection. Therefore, selecting KPIs properly is essential for applying multivariant KPI data for any practical anomaly detection. This paper studies this performance loss issue when TSAD models are applied onto real-world cloud systems, and proposes fKPISelect, a mechanism of automated KPI selection based on fault injection. We implemented fKPISelect, deployed it to a real cloud system, and created a real-world KPI dataset. We conducted extensive experiments, and the experimental results show the effectiveness and practicality of fKPISelect: it improves the F1 score of anomaly detection from 0.68 to 0.91 for real-world KPI data.},
+	urldate = {2024-02-14},
+	booktitle = {2023 {IEEE} 34th {International} {Symposium} on {Software} {Reliability} {Engineering} ({ISSRE})},
+	author = {Zhang, Xingjian and Zhao, Yinqin and Liu, Chang and Wang, Long and Yang, Xin and Hou, Yefei and Lan, Zhongwen and Hu, Xining and Miao, Beibei and Yang, Ming and Jing, Xiangyi and Li, Sijie},
+	month = oct,
+	year = {2023},
+	note = {ISSN: 2332-6549},
+	keywords = {anomaly detection, cloud reliability, Data models, Key performance indicator, KPI, multivariant analysis, Neural networks, Reliability engineering, Sensitivity, Software reliability, Time series analysis, unsupervised learning},
+	pages = {183--194},
+	pdf={fKPISelect_ISSRE23.pdf},
+  slides={fKPISelect_ISSRE23_slides.pdf},
+  code={https://github.com/THUzxj/fKPISelect},
+  selected={true}
+}
 
 
 @inproceedings{zhang_modeling_2022,
@@ -48,22 +79,3 @@
 	keywords = {Computer Science - Computation and Language, Computer Science - Information Retrieval, Computer Science - Machine Learning},
 }
 
-@inproceedings{zhang_fkpiselect_2023,
-	title = {{fKPISelect}: {Fault}-{Injection} {Based} {Automated} {KPI} {Selection} for {Practical} {Multivariate} {Anomaly} {Detection}},
-	shorttitle = {{fKPISelect}},
-	url = {https://ieeexplore.ieee.org/abstract/document/10301214},
-	doi = {10.1109/ISSRE59848.2023.00084},
-	abstract = {IT services are now popularly hosted in cloud systems. In order to enhance the availability of cloud services, an emerging approach for detecting failures of cloud components is to monitor Key Performance Indicators (KPIs) of the components and apply Neural Network based AI technologies to detect KPI anomalies. Multivariate Time Series Anomaly Detection (TSAD) models have been designed for this purpose. However, when applying such models directly to real-world cloud systems the anomaly detection performance is not as good. This is because the number of KPIs in real cloud systems is typically much more than the number of KPIs in the datasets used for model evaluation, and the larger number of KPIs bring about a performance loss of the models’ anomaly detection. Therefore, selecting KPIs properly is essential for applying multivariant KPI data for any practical anomaly detection. This paper studies this performance loss issue when TSAD models are applied onto real-world cloud systems, and proposes fKPISelect, a mechanism of automated KPI selection based on fault injection. We implemented fKPISelect, deployed it to a real cloud system, and created a real-world KPI dataset. We conducted extensive experiments, and the experimental results show the effectiveness and practicality of fKPISelect: it improves the F1 score of anomaly detection from 0.68 to 0.91 for real-world KPI data.},
-	urldate = {2024-02-14},
-	booktitle = {2023 {IEEE} 34th {International} {Symposium} on {Software} {Reliability} {Engineering} ({ISSRE})},
-	author = {Zhang, Xingjian and Zhao, Yinqin and Liu, Chang and Wang, Long and Yang, Xin and Hou, Yefei and Lan, Zhongwen and Hu, Xining and Miao, Beibei and Yang, Ming and Jing, Xiangyi and Li, Sijie},
-	month = oct,
-	year = {2023},
-	note = {ISSN: 2332-6549},
-	keywords = {anomaly detection, cloud reliability, Data models, Key performance indicator, KPI, multivariant analysis, Neural networks, Reliability engineering, Sensitivity, Software reliability, Time series analysis, unsupervised learning},
-	pages = {183--194},
-	pdf={fKPISelect_ISSRE23.pdf},
-  slides={fKPISelect_ISSRE23_slides.pdf},
-  code={https://github.com/THUzxj/fKPISelect},
-  selected={true}
-}

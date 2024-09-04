@@ -21,6 +21,12 @@
   },
   "publications": [
     {
+      "name": "Minder: Faulty Machine Detection for Large-scale Distributed Model Training",
+      "publisher": "NSDI 2025",
+      "releaseDate": "2025",
+      "summary": "Large-scale distributed model training requires simultaneous training on up to thousands of machines. Faulty machine detection is critical when an unexpected fault occurs in a machine. From our experience, a training task can encounter two faults per day on average, possibly leading to a halt for hours. To address the drawbacks of the time-consuming and labor-intensive manual scrutiny, we propose Minder, an automatic faulty machine detector for distributed training tasks. The key idea of Minder is to automatically and efficiently detect faulty distinctive monitoring metric patterns, which could last for a period before the entire training task comes to a halt. Minder has been deployed in a production environment for over nine months, monitoring daily distributed training tasks where each involves up to thousands of machines. In our real-world fault detection scenarios, Minder can accurately and efficiently react to faults within 3.6 seconds on average, with a precision of 0.904 and F1-score of 0.893."
+    },
+    {
       "name": "fKPISelect: Fault-Injection Based Automated KPI Selection for Practical Multivariate Anomaly Detection",
       "publisher": "ISSRE 2023",
       "releaseDate": "2023",
