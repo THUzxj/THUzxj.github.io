@@ -98,9 +98,7 @@
       "startDate": "2018-09-01",
       "endDate": "2022-07-01",
       "score": "GPA: 3.7/4.0",
-      "courses": [
-        "GPA: 3.7/4.0 (Top 40%)"
-      ]
+      "courses": ["GPA: 3.7/4.0 (Top 40%)"]
     }
   ],
   "awards": [
