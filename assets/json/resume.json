@@ -61,7 +61,7 @@
       "url": "https://www.ctclouds.com/",
       "startDate": "2023-03-01",
       "endDate": "2023-07-01",
-      "summary": "Do research on anomaly detection of monitored."
+      "summary": "Do research on anomaly detection of monitoring data."
     },
     {
       "name": "Charging service group in Nio",
@@ -93,11 +93,14 @@
       "institution": "Department of Computer Science and Technology, Tsinghua University, Beijing, China",
       "location": "Beijing, China",
       "url": "https://www.tsinghua.edu.cn/",
-      "area": "Computer Science and Tecchnology",
+      "area": "Computer Science and Technology",
       "studyType": "Bachelor",
       "startDate": "2018-09-01",
       "endDate": "2022-07-01",
-      "score": "GPA: 3.7/4.0"
+      "score": "GPA: 3.7/4.0",
+      "courses": [
+        "GPA: 3.7/4.0 (Top 40%)"
+      ]
     }
   ],
   "awards": [
