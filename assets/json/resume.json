@@ -111,7 +111,7 @@
   "projects": [
     {
       "name": "Automatic Creation and Operation of Experimental Cloud Systems",
-      "summary": "An automatic experimental system for collecting data and testing new designs",
+      "summary": "An automatic experimental cloud system for collecting data and testing new designs",
       "highlights": [
         "Using Vagrant and Puppet for creating server clusters",
         "Running microservices and workloads with kubernetes and locust",
