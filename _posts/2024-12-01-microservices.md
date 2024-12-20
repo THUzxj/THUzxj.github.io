@@ -130,7 +130,7 @@ This field focuses on using the relationships between services to locate the pos
 
 #### Comments
 
-Personally speaking, without experience in production microservices, current fault localization works don't convince me of their motivation about the complexity of finding where the root causes are located. The status of each service, such as workload overwhelming, resource contention and degration caused by other services, can be inferred through the metrics of the services, including request number, resource usage, response latency. Judging whether the performance problem is caused by the service itself or the other services seems not difficult.
+Personally speaking, without experience in production microservices, current fault localization works don't convince me of their motivation about the complexity of finding where the root causes are located. As the model of web services is relatively simple, the status of each service, such as workload overwhelming, resource contention and degration caused by other services, can be inferred through the metrics of the services, including request number, resource usage, response latency. Judging whether the performance problem is caused by the service itself or the other services seems not difficult.
 
 #### Papers
 
