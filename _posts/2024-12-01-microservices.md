@@ -66,7 +66,8 @@ However, some disadvantages still hinder the practical application of these meth
 2. **The tradeoff of saving resources and throttling the services.** Where do the saved resources come from? Part of them are from the higher resource utilization. Another part of them is from the throttling of services. Because the target is set to reduce SLO violations, the real latencies of the services are ignored if they satisfy the SLO. Thus, the average latency of the services under these schedulers is higher because some services are throttled to save resources.
 3. **The difficulty of proving the effectiveness of the methods.** The evaluation of the methods is challenging and current evaluations are not very convincing. The experimental systems evaluate the methods, which are much simpler than the real-world systems. Their generalizability to microservices with different designs, scale and dynamic changes, can not be evaluated. In particular, the DL models' low explainability limits their further usage in production because of the possible unexpected outputs.
 4. **The ignorance of exploring the lower-level details of the services.** The latency of the services, the basis of SLO, needs more inspection. The latency contains the waiting time in the running queue, the program processing time, the network latency and so on. To have a further understanding of microservices, besides experiments, we need more explanations from the viewpoint of queue theory, probability theory, OS scheduling, the host network and so on.
-5. **To be Continued.**
+5. **The kinds of considered resource are too few.** Most of these works only consider the CPU usage, ignoring the imfluence of memory, network and so on. 
+6. **To be Continued.**
 
 
 
@@ -85,6 +86,8 @@ However, some disadvantages still hinder the practical application of these meth
 - AWARE: Automate Workload Autoscaling with Reinforcement Learning in Production Cloud Systems (ATC'23)
 - Autothrottle: A Practical Bi-Level Approach to Resource Management for SLO-Targeted Microservices (NSDI'24)
 - Derm: SLA-aware Resource Management for Highly Dynamic Microservices (ISCA'24)
+- Atlas: Hybrid Cloud Migration Advisor for Interactive Microservices (EuroSys'24)
+
 
 ### Network performance
 

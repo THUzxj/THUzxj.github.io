@@ -2,7 +2,7 @@
 layout: post
 title: "The difference between microservices and serverless computing: the event-driven architecture"
 date: 2024-12-20 00:00:00
-description: 
+description: The event-driven architecture in serverless computing mitigates the overhead introduced by decomposing the monolithic application into microservices.
 tags: microservice serverless cloud
 categories: academic
 featured: true
